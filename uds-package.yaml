@@ -9,6 +9,6 @@ spec:
       - service: podinfo
         selector:
           app.kubernetes.io/name: podinfo
-        host: podinfo
+        host: podinfo ### podinfo.uds.dev
         gateway: tenant
         port: 9898
